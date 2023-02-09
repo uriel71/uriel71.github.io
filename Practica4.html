@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: black;
+            padding: 30%;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(132, 0, 255);
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: lightskyblue;
+            height: 300px;
+        }
+        section::after{
+            content: ;
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: darkgray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media(max-width: 600px){
+            nav, article{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h2>Jugadas futbol mexico</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="https://media.taringa.net/knn/fit:550/Z3M6Ly9rbjMvNDAwZjBmNzRjZGY4NjgxOGNkN2M3Mzg0NjM0ZGVhODIuanBn">Telefonos</a></li>
+                <li><a href="https://ichef.bbci.co.uk/news/640/cpsprodpb/121AA/production/_127745147_gettyimages-1443193307.jpg">Jugadores</a></li>
+                <li><a href="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/08/21/16610607797266.jpg">Jugadas</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Lista de telefonos celulares</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit vel ut cupiditate. Perspiciatis assumenda nostrum at doloribus neque et aspernatur vel dolores voluptates quia, nam ducimus expedita similique consequuntur.
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p>Jugadas mexico2021 &copy; 2023</p>
+    </footer>
+    <h1>Angel uriel gonzalez lizarraga</h1>
+    
+</body>
+</html>
