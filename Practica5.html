@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <label for="Nombre:">Nombre:</label>
+    <input type="text" placeholder="Teclea el nombre del alumno">
+
+    <br> <br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" placeholder="Teclea tu edad">
+
+    <br><br>
+
+    <label for="Fecha_nacimiento">Fecha de nacimiento:</label>
+    <input type="date">
+    
+    <br><br>
+
+    <input type="radio" name="sexo" required> Femenino
+    <input type="radio" name="sexo" required> Masculino <br><br>
+
+    <label for="Direccion ">Direccion:</label><br>
+    <textarea name="direccion " id="" cols="30" rows="10" placeholder="Teclea direccion"></textarea>
+    <br><br>
+
+    <label for="Escuela">Escuela:</label>
+    <select name="escuela" id="">
+    <option value="">Seleccione Escuela</option>
+    <option value="cetis">cetis 107</option>
+    <option value="cbetis">Cbetis 224</option>
+    <option value="cholouas">cholouas</option>
+    <option value="otra">Otra</option>
+</select><br><br>
+
+    <label for="materias">Materias Cursadas</label> <br>
+    <input type="checkbox" name="materias[]"> Fisica <br>
+    <input type="checkbox" name="materias[]"> Ecologia <br>
+    <input type="checkbox" name="materias[]"> Ingles <br>
+    <input type="checkbox" name="materias[]"> Calculo Diferencial <br>
+    <input type="checkbox" name="materias[]"> Programacion Web <br> <br>
+
+    <label for="Color">Color preferido</label>
+    <input type="color" required><br><br>
+
+    <label for="imagen_perfil">Imagen de perfil</label>
+    <input type="file" accept="png/jpg"><br><br>
+
+    <input type="submit" value="Guardar Alumno"><br><br><br>
+
+    <hr>
+    Angel Uriel Gonzalez Lizarraga &copy; - Practica - 5 13/02/23
+</body>
+</html>
